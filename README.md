@@ -16,13 +16,14 @@ Unlike in the traditional development, where we use simpler operations like the 
 
 The wedge product is an antisymmetric bilinear operation on vectors in a vector space. For vectors $\mathbf{u}$ and $\mathbf{v}$ in an $n$-dimensional vector space $V$, their wedge product $\mathbf{u} \wedge \mathbf{v}$ is a bivector that represents the oriented area spanned by $\mathbf{u}$ and $\mathbf{v}$. The properties of the wedge product are:
 
-* **Antisymmetry:** $u∧v=−(v∧u)\mathbf{u} \wedge \mathbf{v} = -(\mathbf{v} \wedge \mathbf{u})u∧v=−(v∧u).$
-  
-* **Bilinearity:** The wedge product is linear in both arguments.
-$(au+bv)∧w=a(u∧w)+b(v∧w)(a\mathbf{u} + b\mathbf{v}) \wedge \mathbf{w} = a (\mathbf{u} \wedge \mathbf{w}) + b (\mathbf{v} \wedge \mathbf{w})(au+bv)∧w=a(u∧w)+b(v∧w)$
+   - **Antisymmetry**: $\mathbf{u} \wedge \mathbf{v} = -(\mathbf{v} \wedge \mathbf{u})$.
+     
+   - **Bilinearity**: The wedge product is linear in both arguments.
+     $(a\mathbf{u} + b\mathbf{v}) \wedge \mathbf{w} = a (\mathbf{u} \wedge \mathbf{w}) + b (\mathbf{v} \wedge \mathbf{w})$
+     
+   - **Associativity**: The wedge product can be extended to higher-order products:
+     $\mathbf{u} \wedge (\mathbf{v} \wedge \mathbf{w}) = (\mathbf{u} \wedge \mathbf{v}) \wedge \mathbf{w}$
 
-* **Associativity:** The wedge product can be extended to higher-order products:
-$u∧(v∧w)=(u∧v)∧w\mathbf{u} \wedge (\mathbf{v} \wedge \mathbf{w}) = (\mathbf{u} \wedge \mathbf{v}) \wedge \mathbf{w}u∧(v∧w)=(u∧v)∧w$
 
 I don't know about you, but even though the ideas aren't intrinsically *that* hard or complicated, it already seems extremely abstract and sort of hard to parse. What's that funky carrot "^" symbol again? How does the anti-symmetry come into play exactly? And that whole "bilinearity" thing— it seems like it's loading a lot of complexity in a single word/idea! Anyway, it turns out that if you make the bivector the fundamental object of consideration, and the wedge product the primary operation of consideration, a lot of very nice math sort of "falls out". And it also turns out that this approach seems to generalize in a less clunky way than the more traditional presentation of linear algebra to higher dimensions and to doing calculus in these higher dimensional spaces, not just algebra. If you just walk through the implications of the axioms about the wedge product and look at what you get when you take the wedge product of two 3-dimensional vectors, you quickly end up with something that looks very similar to how you compute determinants of a matrix recursively using minors and cofactors, and indeed, it's basically the exact same idea but in different notation.
 
