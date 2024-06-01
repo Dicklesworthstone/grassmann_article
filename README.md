@@ -65,12 +65,12 @@ So besides being a pretty depressing story about a man who never got the recogni
 * Abstraction and generality are great, and that is of course the direction math has gone in a big way up through the present. But you probably shouldn't jump right into the full generality. Instead, start with the simpler cases that are more tangible and intuitive and develop those. That is, start with 2D and 3D, don't start with N-D!
 
 * Appeal to intuition first if you want to be understood. It's impossible to develop intuition when dealing in N-dimensions, and especially in a subject like geometry, where our intuitions about the subject can be incredibly fruitful in coming up with new theorems and understanding, and those intuitions are grounded in our corporal reality as 3D beings in a 3D world, you are wasting your great ideas if you don't first discuss how they work and apply in a more tangible and intuitive setting. Then, once you have your audience hooked, you can explain how the ideas actually generalize completely.
-** Part of the problem of this approach for Grassmann's work in particular is that his methods don't really give you much if any benefit in 2 and 3 dimensions versus the more traditional approach, particularly in practical applications like engineering, where the typical vector/matrix formulation works very well and is more intuitive.
+    * Part of the problem of this approach for Grassmann's work in particular is that his methods don't really give you much if any benefit in 2 and 3 dimensions versus the more traditional approach, particularly in practical applications like engineering, where the typical vector/matrix formulation works very well and is more intuitive.
 
 * If you're an outsider to a field, rather than focus *all* your energy on getting the messaging/explanation more rigorous and perfect, or even trying to show how your new ideas in the field can be profitably employed in various applications, you're probably better served trying to find just *one* well-respected insider to that field and win that one person over completely to the merits of your ideas. Then, that person can serve as your champion, and other important and respected thinkers in that field— who are always extremely busy and don't have unlimited bandwidth to decipher long, impenetrable treatises and mathematical monographs— will have much more of a reason to give your ideas serious consideration; you effectively can piggyback on the accumulated credibility of your mentor.
 
 * If people are telling you that your ideas aren't bad, but they should be expressed in a different/better way, maybe take that feedback more seriously, especially if the people who are giving you that feedback are themselves greatly respected and important in your field. Grassmann heard first from Kummer and then from Möbius that he was presenting his work in a really confusing and un-intuitive way, but he never really took that advice to heart and tried to integrate it into his work. He just doubled down on the rigor and generality, and tried to also include some practical applications, and it didn't work. An important addendum to this point is that, if the experts are ALSO telling you that *your ideas themselves are terrible or make no sense*, that is a very different situation. The experts might be wrong, and sometimes are, but in most cases it's more likely that you're a crank/charlatan yourself!
-** While it's impossible to say how much his failure to make an impact during the time he was doing this work was a result of more "sociological" factors (i.e., him being an outsider in the world of pure math without the imprimatur of a university position), it certainly didn't help that he kept getting that feedback from his peers (at least the ones that even bothered to look at his work, which was a small group to start with).
+    * While it's impossible to say how much his failure to make an impact during the time he was doing this work was a result of more "sociological" factors (i.e., him being an outsider in the world of pure math without the imprimatur of a university position), it certainly didn't help that he kept getting that feedback from his peers (at least the ones that even bothered to look at his work, which was a small group to start with).
 
 * If, despite your best efforts and work product, you are being ignored by your chosen field for whatever reason, try diversifying a bit! How much grimmer would Grassmann's life be if he hadn't at least won the accolades from his fellow linguists! Some disciplines are simply less snobbish and care less about the provenance and specific presentation of ideas, and care more about what new things they can do or understand using those ideas. If you are truly "casting pearls before swine," then maybe the best thing to do is find a new audience to cast things before!
 
@@ -98,48 +98,48 @@ So how does all this relate to computer programming? Well, in a sense, can you t
 ### Matrix/Tensor Approach
 
 1. **Data Complexity**:
-     - In the matrix and tensor approach, the complexity is primarily in the structure of the data itself. Matrices and tensors are multi-dimensional arrays that can represent a wide range of relationships and data configurations.
-     - Each entry in a matrix or tensor can have a different meaning depending on its position, and higher-order tensors can represent complex multi-dimensional relationships.
+    - In the matrix and tensor approach, the complexity is primarily in the structure of the data itself. Matrices and tensors are multi-dimensional arrays that can represent a wide range of relationships and data configurations.
+    - Each entry in a matrix or tensor can have a different meaning depending on its position, and higher-order tensors can represent complex multi-dimensional relationships.
 
 2. **Operations**:
-     - The operations on matrices and tensors, such as addition, multiplication, and contraction, are relatively straightforward and well-defined.
-     - These operations extend naturally from lower-dimensional cases (e.g., vector and matrix operations) to higher dimensions without fundamentally changing their nature.
+    - The operations on matrices and tensors, such as addition, multiplication, and contraction, are relatively straightforward and well-defined.
+    - These operations extend naturally from lower-dimensional cases (e.g., vector and matrix operations) to higher dimensions without fundamentally changing their nature.
 
 3. **Example**:
-     - A matrix multiplication is a clear and direct operation that combines rows and columns of matrices to produce another matrix. The operation itself is simple and systematic, but the matrix structure can encode complex transformations and relationships.
+    - A matrix multiplication is a clear and direct operation that combines rows and columns of matrices to produce another matrix. The operation itself is simple and systematic, but the matrix structure can encode complex transformations and relationships.
 
 ### Grassmann’s Exterior Algebra Approach
 
 1. **Data Simplicity**:
-     - In Grassmann’s approach, the data elements themselves (vectors, scalars, bivectors, etc.) are simpler and more elemental. They represent basic geometric objects and their orientations.
-     - The complexity and richness of the structure come from the operations applied to these elements, such as the wedge product.
+    - In Grassmann’s approach, the data elements themselves (vectors, scalars, bivectors, etc.) are simpler and more elemental. They represent basic geometric objects and their orientations.
+    - The complexity and richness of the structure come from the operations applied to these elements, such as the wedge product.
 
 2. **Operations**:
-     - The wedge product and other operations in exterior algebra encapsulate more of the abstraction and complexity. These operations introduce antisymmetry and higher-dimensional relationships in a natural and unified way.
-     - The operations themselves are more abstract, but they allow for elegant and compact representations of complex geometric and algebraic relationships.
+    - The wedge product and other operations in exterior algebra encapsulate more of the abstraction and complexity. These operations introduce antisymmetry and higher-dimensional relationships in a natural and unified way.
+    - The operations themselves are more abstract, but they allow for elegant and compact representations of complex geometric and algebraic relationships.
 
 3. **Example**:
-     - The wedge product of two vectors produces a bivector, representing the oriented area spanned by the vectors. This operation abstracts the orientation and area into a single algebraic object, simplifying the representation of such relationships.
+    - The wedge product of two vectors produces a bivector, representing the oriented area spanned by the vectors. This operation abstracts the orientation and area into a single algebraic object, simplifying the representation of such relationships.
 
 ### Comparison and Summary
 
 1. **Matrix/Tensor Approach**:
-     - **Complexity in Data**: Matrices and tensors encapsulate complex structures within their entries and indices.
-     - **Simplicity in Operations**: The operations on these data structures are direct and extend naturally from familiar concepts like vector addition and scalar multiplication.
+    - **Complexity in Data**: Matrices and tensors encapsulate complex structures within their entries and indices.
+    - **Simplicity in Operations**: The operations on these data structures are direct and extend naturally from familiar concepts like vector addition and scalar multiplication.
 
 2. **Grassmann’s Approach**:
-     - **Simplicity in Data**: The data elements (vectors, scalars, bivectors) are simpler and more foundational.
-     - **Complexity in Operations**: The operations (wedge product, Hodge dual) are where the complexity and abstraction lie, capturing relationships and interactions in a sophisticated way.
+    - **Simplicity in Data**: The data elements (vectors, scalars, bivectors) are simpler and more foundational.
+    - **Complexity in Operations**: The operations (wedge product, Hodge dual) are where the complexity and abstraction lie, capturing relationships and interactions in a sophisticated way.
 
 ### Practical Implications
 
 - **Engineering and Applied Sciences**:
-    - The matrix/tensor approach is often more practical for engineering and applied sciences because it provides a straightforward framework for numerical computation and data manipulation.
-    - Software tools and numerical libraries are well-optimized for matrix and tensor operations, making them efficient and easy to use for practical applications.
+    - The matrix/tensor approach is often more practical for engineering and applied sciences because it provides a straightforward framework for numerical computation and data manipulation.
+    - Software tools and numerical libraries are well-optimized for matrix and tensor operations, making them efficient and easy to use for practical applications.
 
 - **Theoretical and Abstract Mathematics**:
-    - Grassmann’s approach shines in theoretical contexts where the relationships and interactions between geometric objects are of primary importance.
-    - Exterior algebra and wedge products provide a powerful language for expressing these relationships concisely and elegantly, which is valuable in fields like differential geometry, algebraic topology, and theoretical physics.
+    - Grassmann’s approach shines in theoretical contexts where the relationships and interactions between geometric objects are of primary importance.
+    - Exterior algebra and wedge products provide a powerful language for expressing these relationships concisely and elegantly, which is valuable in fields like differential geometry, algebraic topology, and theoretical physics.
 
 Now, the connection I saw to computer programming should hopefully be much clearer to you! In computer programming, you can often solve your problem mostly by choosing the right data structure which fits your problem nicely and leads to simple and performant code for computing with those data structures. Or, you can just use any old simple data structure like a list or table, and then your code becomes more complex and harder to optimize, but because you are ultimately dealing with very simple data structures at the "atomic" level, it is in some sense easier to understand each individual step and the "transformative essence" of the computation.
 
@@ -150,31 +150,31 @@ All that is to say, it doesn't really surprise me that vectors/matrices/tensors 
 We see that pattern over and over again in so many disciplines that it's almost hard to believe that the same basic approach could keep working so well in such diverse settings. To give just a partial listing of such ideas in different disciplines:
 
 1. **Structural Engineering**:
-     - **Modal Analysis**: In structural engineering, modal analysis is used to determine the natural vibration modes of structures such as bridges, buildings, and mechanical components. The mass and stiffness matrices of the structure are used to solve the eigenvalue problem, where the eigenvalues represent the natural frequencies and the eigenvectors represent the corresponding mode shapes.
-     - **Stability Analysis**: In stability analysis of structures, eigenvalue problems are solved to determine the critical load at which a structure becomes unstable (buckles). The stiffness matrix and geometric stiffness matrix are used to form a generalized eigenvalue problem.
+    - **Modal Analysis**: In structural engineering, modal analysis is used to determine the natural vibration modes of structures such as bridges, buildings, and mechanical components. The mass and stiffness matrices of the structure are used to solve the eigenvalue problem, where the eigenvalues represent the natural frequencies and the eigenvectors represent the corresponding mode shapes.
+    - **Stability Analysis**: In stability analysis of structures, eigenvalue problems are solved to determine the critical load at which a structure becomes unstable (buckles). The stiffness matrix and geometric stiffness matrix are used to form a generalized eigenvalue problem.
 
 2. **Acoustics**:
-     - **Room Acoustics**: In acoustics, the eigenmodes of a room or enclosure are determined by solving the Helmholtz equation. The eigenvalues correspond to the resonant frequencies, and the eigenvectors describe the spatial distribution of the sound pressure levels.
-     - **Vibration Analysis**: For acoustic systems like musical instruments or loudspeakers, the eigenmodes of the vibrating surfaces are analyzed to understand their frequency response and sound radiation characteristics.
+    - **Room Acoustics**: In acoustics, the eigenmodes of a room or enclosure are determined by solving the Helmholtz equation. The eigenvalues correspond to the resonant frequencies, and the eigenvectors describe the spatial distribution of the sound pressure levels.
+    - **Vibration Analysis**: For acoustic systems like musical instruments or loudspeakers, the eigenmodes of the vibrating surfaces are analyzed to understand their frequency response and sound radiation characteristics.
 
 3. **Control Systems**:
-     - **State-Space Analysis**: In control engineering, the dynamics of a system are often represented in state-space form. The system's behavior can be analyzed by computing the eigenvalues of the system matrix, which indicate the stability and response characteristics of the system.
-     - **Pole Placement**: Designing controllers involves placing the poles of the closed-loop system at desired locations in the complex plane. This is achieved by manipulating the eigenvalues of the system matrix.
+    - **State-Space Analysis**: In control engineering, the dynamics of a system are often represented in state-space form. The system's behavior can be analyzed by computing the eigenvalues of the system matrix, which indicate the stability and response characteristics of the system.
+    - **Pole Placement**: Designing controllers involves placing the poles of the closed-loop system at desired locations in the complex plane. This is achieved by manipulating the eigenvalues of the system matrix.
 
 4. **Electrical Engineering**:
-     - **Power System Stability**: In power systems, the stability of the network can be assessed by forming the admittance matrix and computing its eigenvalues. The eigenvalues provide insights into the stability margins and dynamic behavior of the power grid.
-     - **Signal Processing**: Eigen decomposition is used in various signal processing techniques, such as Principal Component Analysis (PCA) for dimensionality reduction, noise reduction, and feature extraction.
+    - **Power System Stability**: In power systems, the stability of the network can be assessed by forming the admittance matrix and computing its eigenvalues. The eigenvalues provide insights into the stability margins and dynamic behavior of the power grid.
+    - **Signal Processing**: Eigen decomposition is used in various signal processing techniques, such as Principal Component Analysis (PCA) for dimensionality reduction, noise reduction, and feature extraction.
 
 5. **Computer Graphics and Vision**:
-     - **Shape Analysis**: In computer graphics and vision, the shape of 3D objects can be analyzed by constructing matrices such as the Laplacian matrix and computing their eigenvalues and eigenvectors. These eigenmodes are used for tasks like mesh smoothing, segmentation, and deformation.
-     - **Image Compression**: Techniques like Principal Component Analysis (PCA) and Singular Value Decomposition (SVD) are used for image compression and feature extraction by approximating the original image with fewer principal components.
+    - **Shape Analysis**: In computer graphics and vision, the shape of 3D objects can be analyzed by constructing matrices such as the Laplacian matrix and computing their eigenvalues and eigenvectors. These eigenmodes are used for tasks like mesh smoothing, segmentation, and deformation.
+    - **Image Compression**: Techniques like Principal Component Analysis (PCA) and Singular Value Decomposition (SVD) are used for image compression and feature extraction by approximating the original image with fewer principal components.
 
 6. **Network Analysis**:
-     - **PageRank Algorithm**: The PageRank algorithm used by Google to rank web pages constructs a stochastic matrix representing the web graph and computes its dominant eigenvector, which corresponds to the steady-state distribution of the random surfer model.
-     - **Community Detection**: In social network analysis, spectral clustering is used to detect communities by constructing a graph Laplacian matrix and analyzing its eigenvalues and eigenvectors.
+    - **PageRank Algorithm**: The PageRank algorithm used by Google to rank web pages constructs a stochastic matrix representing the web graph and computes its dominant eigenvector, which corresponds to the steady-state distribution of the random surfer model.
+    - **Community Detection**: In social network analysis, spectral clustering is used to detect communities by constructing a graph Laplacian matrix and analyzing its eigenvalues and eigenvectors.
 
 7. **Quantum Mechanics**:
-     - **Quantum State Analysis**: In quantum mechanics, the properties of quantum systems are often analyzed by solving the Schrödinger equation. The Hamiltonian matrix is diagonalized to obtain its eigenvalues and eigenvectors, which correspond to the energy levels and quantum states of the system.
+    - **Quantum State Analysis**: In quantum mechanics, the properties of quantum systems are often analyzed by solving the Schrödinger equation. The Hamiltonian matrix is diagonalized to obtain its eigenvalues and eigenvectors, which correspond to the energy levels and quantum states of the system.
 
 Basically, matrices are really great data structures for encoding useful things about the world. If you need some concept of physical locality, like pixels in an image that are nearby each other in 2D tending to be similar in color and brightness, that's built in— you don't need to somehow tack it on as you might if you were dealing with all the pixels as a linked list. Once you've managed to express your problem in the form of a matrix, the math "doesn't care" what it represents anymore: it's just a matrix and you now have access to all the many tools and concepts from linear algebra to do stuff with that matrix. For practical, real world problems, matrices usually are the way to go.
 
