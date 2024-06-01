@@ -1,6 +1,9 @@
 # The Lessons of Hermann Grassmann and the Nature of Abstractions
 **by Jeffrey Emanuel *(6/1/2024)***
 
+![Illustration](https://raw.githubusercontent.com/Dicklesworthstone/grassman_article/main/grassman_illustration.webp)
+
+
 I periodically think about [Hermann Grassmann](https://en.wikipedia.org/wiki/Hermann_Grassmann) and get sucked into reading about his life and work. Most people haven't heard of him, and even if they have, they can't tell you much about him. In short, he was a German polymath born in 1809. He was the son of an ordained minister who also taught math and physics at the local high school (technically, a Gymnasium) which Grassmann attended, and where he was not conspicuously brilliant or accomplished (he was very good at music though, interestingly). Hermann then attended the University of Berlin, where he made the terrible choice in retrospect of studying theology with a sprinkling of classical languages.
 
 What he should have majored in is math, since, as it turned out, he was an incredible world-class math genius. But he only realized that he liked math after he finished university and went back home to his hometown of Stettin (now a city in Poland), and by then, he wasn't in a position to receive the kind of rigorous and supervised formal training that is typical in math. Instead, he just taught himself from books and presumably from talking to his father. When he was just 23, he made his critical main discovery, which in a sense he spent the rest of his career explicating and exploring: he found a completely new way to "add" and "multiply" points and vectors in space.
