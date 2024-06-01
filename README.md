@@ -55,7 +55,7 @@ handed in an autobiography to the Konsistorium in Stettin when he was passing hi
 Did Grassmann ever in his wildest dreams imagine that this would eventually come to pass? Surprisingly, despite his treatment by his contemporaries, he actually did! Perhaps that explains why he was willing to toil on his own for so long. Here is what he said about this:
 
 *“For I have every confidence that the effort I have applied to the science reported upon here, which has occupied a considerable span of my lifetime and demanded the most intense exertions of my powers, is not to be lost. … **a time will come when it will be drawn forth from the dust of oblivion and the ideas laid down here will bear fruit.** … some day these ideas, even if in an altered form, will reappear and with the passage of time will participate in a lively intellectual exchange. For truth is eternal, it is divine; and no phase in the development of truth, however small the domain it embraces, can pass away without a trace. It remains even if the garments in which feeble men clothe it fall into dust.”* 
-  — Hermann Grassmann, in the foreword to the Ausdehnungslehre of 1862, translated by Lloyd Kannenberg (Source: GrassmannAlgebra.com)
+    — Hermann Grassmann, in the foreword to the Ausdehnungslehre of 1862, translated by Lloyd Kannenberg (Source: GrassmannAlgebra.com)
 
 ## Lessons from Grassmann's Life
 
